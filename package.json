@@ -11,5 +11,14 @@
   "dependencies": {
     "inquirer": "^6.5.2",
     "path": "^0.12.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCourtney22/Easy-README-Generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JCourtney22/Easy-README-Generator/issues"
+  },
+  "homepage": "https://github.com/JCourtney22/Easy-README-Generator#readme"
 }

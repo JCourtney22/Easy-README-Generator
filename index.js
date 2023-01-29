@@ -7,7 +7,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: 'input',
-        message: 'What is the of your project ?',
+        message: 'What is the title of your project?',
         name: 'title',
     },
     {
@@ -16,8 +16,13 @@ const questions = [
         name: 'description',
     },
     {
+        type: "input",
+        message: "Table of Contents",
+        name: "tabel of contents",
+    },
+    {
         type: 'input',
-        message: 'Please describe the installation process of your project.',
+        message: 'Please describe the installation process or requirements of your project.',
         name: 'installation',
     },
     {
@@ -26,12 +31,26 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'input',
+        type: 'checkbox',
         message: 'Please choose a license.',
+        options: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
         name: 'license',
-        options: []
     },
-// I need to include contributing, tests and questions but I also need to look into this.
+    {
+        type: "input",
+        message: " Please list any contributors.",
+        name: "contributors",
+    },
+    {
+        type: "input",
+        message: "What tests are required?",
+        name: "tests",
+    },
+    {
+        type: "input",
+        message: "How should people contact you if they have questions?",
+        name: "questions",
+    }
 ];
 
 // function to write README file
