@@ -31,9 +31,9 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Please choose a license.',
-        options: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
+        options: ["MIT", "APACHE 2.0", "Boost 1.0", "BSD2", "BSD3", "none"],
         name: 'license',
     },
     {
@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-inquirer.prompt(questions).then((responses)) => {
+    inquirer.prompt(questions).then((responses)) => {
     console.log("Creating README...");
     writeToFile("./README.md", generateMarkdown({...responses}));
 }
@@ -68,3 +68,20 @@ inquirer.prompt(questions).then((responses)) => {
 
 // function call to initialize program
 init();
+
+//Switch statement to select the badge
+
+// const printLicense = (licence) => {
+//     switch(licence) {
+//         case ("MIT")
+//     }
+// }
+
+const printLicense = (licence) => ({
+    "MIT": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    "APACHE 2.0": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    "Boost 1.0": "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+    "BSD 2": "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)"
+    "BSD 3": "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    "none": "none"
+})
