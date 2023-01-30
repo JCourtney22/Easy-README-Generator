@@ -1,9 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
-# Description 
+# ${data.title}
+
+## Description 
 ${data.description}
+
 ## Table of Contents
 
 * [Installation](#installation)
@@ -13,17 +15,21 @@ ${data.description}
 * [Tests](#tests)
 * [Questions](#questions)
 
-# Installation
+## Installation
 ${data.installation}
-# Usage
+
+## Usage
 ${data.usage}
-# License
+## License
 This project is licensed with ${data.license}: 
-# Contributing
+
+## Contributing
 ${data.contributing}
-# Tests
+
+## Tests
 ${data.tests}
-# Questions
+
+## Questions
 Please contact me via the following: ${data.questions}
 `;
 }

@@ -18,7 +18,7 @@ const questions = [
     {
         type: "input",
         message: "Table of Contents",
-        name: "tabel of contents",
+        name: "tab of contents",
     },
     {
         type: 'input',
