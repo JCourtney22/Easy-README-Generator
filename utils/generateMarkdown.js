@@ -20,6 +20,7 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
+
 ## License
 This project is licensed with ${data.license}: 
 
@@ -30,7 +31,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-Please contact me via the following: ${data.questions}
+Please contact me via the following: ${data.username} or ${data.email} 
 `;
 }
 
