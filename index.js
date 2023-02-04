@@ -16,11 +16,6 @@ const questions = [
         name: 'description',
     },
     {
-        type: "input",
-        message: "Table of Contents",
-        name: "tab of contents",
-    },
-    {
         type: 'input',
         message: 'Please describe the installation process or requirements of your project.',
         name: 'installation',
@@ -32,19 +27,19 @@ const questions = [
     },
     {
         type: 'list',
-        message: 'Please choose a license.',
-        options: ["MIT", "APACHE 2.0", "Boost 1.0", "BSD2", "BSD3", "none"],
+        message: 'Please choose a license (use arrow keys and enter to select).',
         name: 'license',
+        choices: ['MIT', 'APACHE 2.0', 'Boost 1.0', 'BSD2', 'BSD3', 'none'],
     },
     {
-        type: "input",
-        message: " Please list any contributors.",
-        name: "contributors",
+        type: 'input',
+        message: 'Please list any contributors.',
+        name: 'contributors',
     },
     {
-        type: "input",
-        message: "What tests are required?",
-        name: "tests",
+        type: 'input',
+        message: 'What tests are required?',
+        name: 'tests',
     },
     {
         type: "input",
