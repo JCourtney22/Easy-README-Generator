@@ -1,8 +1,9 @@
 
-# readme generator
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# jfh
 
 ## Description 
-Using node, inquirer provides questions to help you create a readme for your project
+ieie
 
 ## Table of Contents
 
@@ -14,19 +15,19 @@ Using node, inquirer provides questions to help you create a readme for your pro
 * [Questions](#questions)
 
 ## Installation
-Ensure Node is initilaised and inquirer installed
+lold
 
 ## Usage
-to produce a read me
+fhhf
 
 ## License
-This project is licensed with MIT: 
+This project is licensed with BSD3. 
 
 ## Contributing
 undefined
 
 ## Tests
-none
+
 
 ## Questions
-Please contact me via the following: github example or blah@gmal.com 
+Please contact me via the following: iieo or prore 

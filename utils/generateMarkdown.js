@@ -1,6 +1,9 @@
+const printLicenseBadge = require("./printLicense");
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
+  ${printLicenseBadge(data.license)}
 # ${data.title}
 
 ## Description 
@@ -23,7 +26,6 @@ ${data.usage}
 
 ## License
 This project is licensed with ${data.license}: 
-
 ## Contributing
 ${data.contributing}
 
