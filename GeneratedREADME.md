@@ -3,7 +3,7 @@
 # README Generator
 
 ## Description 
-The project allows users to generate a professional README
+This project allows the user to create a README for their own project
 
 ## Table of Contents
 
@@ -15,18 +15,19 @@ The project allows users to generate a professional README
 * [Questions](#questions)
 
 ## Installation
-node and inquirer are required
+You will need node and install inquirer
 
 ## Usage
-To produce professional READMEs
+Use the project to create a professional README for your own project.
 
 ## License
-This project is licensed with MIT: 
+This project is licensed with MIT.
+
 ## Contributing
-undefined
+Please leave feedback regarding the project
 
 ## Tests
 none
 
 ## Questions
-Please contact me via the following: hufrhu@github or jahsgd@gmail.com 
+Please contact me via the following: https://github.com/JCourtney22 or placeholderemail@gmail.com 

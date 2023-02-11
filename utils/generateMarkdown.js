@@ -25,7 +25,8 @@ ${data.installation}
 ${data.usage}
 
 ## License
-This project is licensed with ${data.license}: 
+This project is licensed with ${data.license}.
+
 ## Contributing
 ${data.contributing}
 
