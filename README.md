@@ -14,7 +14,9 @@ I learnt that a file needs exporting when it needs to be imported elsewhere. I'v
 I've never used a switch statement before so I have found it interesting learning how this can be used. 
 
 ## Video
+Please see the below link for a video demonstrating the project:
 
+https://watch.screencastify.com/v/RBoDavvgc8eCoqcdgP7l
 
 ## License
 Please refer to the license in the repo.
