@@ -61,10 +61,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((responses) => {
-    console.log("Creating README...");
-    writeToFile("./GeneratedREADME.md", generateMarkdown({...responses}));
-    
-});
+        console.log("Creating README...");
+        writeToFile("./GeneratedREADME.md", generateMarkdown({ ...responses }));
+
+    });
 }
 
 // function call to initialize program
